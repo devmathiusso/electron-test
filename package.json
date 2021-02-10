@@ -10,11 +10,12 @@
     "deploy": "electron-builder build --mac --win --ia32 --x64 --publish always",
     "dist": "electron-builder build --win --ia32 --publish never",
     "win32": "electron-builder build --win --ia32 --publish always",
-    "build-mac": "electron-builder build --mac"
+    "build-mac": "electron-builder build --mac",
+    "build-win": "electron-builder build --win --publish never"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pedfarma/admin-electron.git"
+    "url": "https://github.com/devmathiusso/electron-test.git"
   },
   "keywords": [
     "Electron",
